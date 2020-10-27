@@ -1,0 +1,15 @@
+{
+    "diagnostic.displayByAle": true,
+    "diagnostic.errorSign": "✖",
+    "diagnostic.hintSign": "·",
+    "diagnostic.infoSign": "·",
+    "diagnostic.warningSign": "·",
+    "suggest.snippetIndicator": "",
+    "coc.source.ultisnips.priority": 5,
+    "languageserver": {
+        "python": {
+            "python.setInterpreter": "/Users/jonatasdev/Library/Caches/pypoetry/virtualenvs/sapu-59dNKGGT-py3.9/bin/python"
+            "python.linting.pep8Path": "/Users/jonatasdev/.pyenv/shims/pep8"
+        }
+    }
+}
