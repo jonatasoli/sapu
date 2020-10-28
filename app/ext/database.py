@@ -13,7 +13,7 @@ async def init():
 
 TORTOISE_ORM = {
     "connections": {"default":
-    "postgres://partyoudbuser:partyou123@localhost/sapu"},
+    f"settings.DATABASE_URL"},
     "apps": {
         "models": {
             "models": ["models", "aerich.models"],
