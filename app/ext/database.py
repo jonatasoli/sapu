@@ -10,10 +10,8 @@ async def init():
         modules={'models': ['app.models', "aerich.models"]}
     )
 
-
 TORTOISE_ORM = {
-    "connections": {"default":
-    f"settings.DATABASE_URL"},
+    "connections": {"default": settings.DATABASE_URL},
     "apps": {
         "models": {
             "models": ["models", "aerich.models"],

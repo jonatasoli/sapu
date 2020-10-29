@@ -1,0 +1,8 @@
+{
+  "upgrade": [
+    "CREATE TABLE IF NOT EXISTS \"user\" (\n    \"id\" SERIAL NOT NULL PRIMARY KEY,\n    \"name\" TEXT NOT NULL,\n    \"document\" TEXT NOT NULL,\n    \"mail\" TEXT NOT NULL,\n    \"oauth\" TEXT NOT NULL,\n    \"role_id\" INT NOT NULL\n);"
+  ],
+  "downgrade": [
+    "DROP TABLE IF EXISTS \"user\""
+  ]
+}
